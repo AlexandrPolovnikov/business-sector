@@ -7,7 +7,7 @@ interface ItemProps {
 }
 const Item = ({ id, title, body }: ItemProps): JSX.Element => {
     return (
-        <div className="main-page__item" key={id}>
+        <div className="item" key={id}>
             <span>{id}</span>
             <span>{title}</span>
             <span>{body}</span>
