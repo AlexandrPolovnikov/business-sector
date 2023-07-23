@@ -1,0 +1,58 @@
+.button {
+    cursor: pointer;
+    border: none;
+
+    &.text {
+        border-radius: 8px;
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        transition: 0.2s;
+        letter-spacing: 0.5px;
+        padding: 4px 8px;
+    }
+
+    &.modal-button {
+        padding: 8px;
+        height: 36px;
+        width: 153px;
+    }
+
+    // Icon colors
+    &.default {
+        // background-color: rgb(112, 110, 110);
+        background: none;
+
+        &:hover {
+            background-color: rgb(81, 81, 81);
+        }
+    }
+
+    &.info {
+        // background-color: #1e50ff;
+        color: #474955;
+        background: none;
+
+        &:hover {
+            background-color: #1841d6;
+        }
+
+        &:disabled {
+            opacity: 0.3;
+            cursor: default;
+            background-color: #1e50ff;
+        }
+    }
+
+    &.danger {
+        background-color: rgba(30, 80, 255, 0.1);
+        border: 1px solid #1e50ff;
+
+        &:hover {
+            background: rgba(255, 38, 30, 0.1);
+            border: 1px solid #ff471e;
+            color: #f4cbc2;
+        }
+    }
+}
