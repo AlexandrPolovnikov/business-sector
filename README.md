@@ -1,3 +1,5 @@
+Задание выполненно в соответствии с требованиями (https://docs.google.com/document/d/1c3O9IfSIb_LLWFGH13_P-EKgfth6-crahUTDC5qOqAg/edit)
+
 ### `npm install`
 
 ### `npm start`
