@@ -1,5 +1,7 @@
 Задание выполненно в соответствии с требованиями (https://docs.google.com/document/d/1c3O9IfSIb_LLWFGH13_P-EKgfth6-crahUTDC5qOqAg/edit)
 
+#Для просмотра нажмите сюда => (business-sector)[https://business-sector-deploy.web.app/]
+
 ### `npm install`
 
 ### `npm start`
