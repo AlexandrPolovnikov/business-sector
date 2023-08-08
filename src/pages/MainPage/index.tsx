@@ -52,11 +52,13 @@ const ListItem = () => {
                 ))}
             </div>
             <footer className="main-page__footer">
-                <Button
-                    text="Назад"
-                    onClick={() => tapBtn(currentPage > 1 ? currentPage - 1 : currentPage + 0)}
-                    type={COLOR_TYPES.info}
-                />
+                <div>
+                    <Button
+                        text="Назад"
+                        onClick={() => tapBtn(currentPage > 1 ? currentPage - 1 : currentPage + 0)}
+                        type={COLOR_TYPES.info}
+                    />
+                </div>
                 <div className="main-page__pagination">
                     {numb.map((num, key) => (
                         <Button
@@ -66,11 +68,13 @@ const ListItem = () => {
                         />
                     ))}
                 </div>
-                <Button
-                    text="Далее"
-                    onClick={() => tapBtn(currentPage < 10 ? currentPage + 1 : currentPage + 0)}
-                    type={COLOR_TYPES.info}
-                />
+                <div>
+                    <Button
+                        text="Далее"
+                        onClick={() => tapBtn(currentPage < 10 ? currentPage + 1 : currentPage + 0)}
+                        type={COLOR_TYPES.info}
+                    />
+                </div>
             </footer>
         </div>
     );
