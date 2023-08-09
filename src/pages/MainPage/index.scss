@@ -31,14 +31,17 @@
         justify-content: center;
         gap: 5px;
         width: auto;
+        min-width: 100px;
+
         height: 40px;
     }
 
     &__footer {
         width: 90vw;
         height: 40px;
-        display: grid;
-        grid-template-columns: 0.3fr 1fr 0.3fr;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }
 
@@ -51,10 +54,10 @@ header {
     background: #474955;
     height: 50px;
 }
-@media (max-width: 700px) {
+@media (max-width: 500px) {
     .main-page {
-        span {
-            font-size: 12px;
+        &__pagination {
+            display: none;
         }
     }
 }
